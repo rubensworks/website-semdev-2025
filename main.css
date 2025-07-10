@@ -145,6 +145,18 @@ p img {
 .program main li {
 	margin: .5em 0
 }
+.table-program {
+    width: 100%;
+}
+.table-program td,th {
+    text-align: left;
+}
+.table-program td:nth-child(1) {  
+    font-style: italic;
+}
+.table-program a {
+    color: #4287f5;
+}
 @media (max-width:800px) {html {
 	font-size: 11pt;
 	margin: 5px 10px
