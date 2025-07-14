@@ -147,9 +147,14 @@ p img {
 }
 .table-program {
     width: 100%;
+    border-spacing: 0 .5rem;
+}
+.table-program tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
 .table-program td,th {
     text-align: left;
+    vertical-align: top;
 }
 .table-program td:nth-child(1) {  
     font-style: italic;
